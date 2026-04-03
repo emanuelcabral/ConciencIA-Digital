@@ -330,17 +330,17 @@ footer {
 
 .article-page {
   display: flex;
-  justify-content: center; // centra horizontal
+  justify-content: center;
   padding: 2rem 1rem;
 }
 
 .article-container {
   display: flex;
   flex-direction: column;
-  align-items: center; // todo centrado
+  align-items: center;
   width: 100%;
-  max-width: 800px; // no rompe en desktop
-  text-align: center; // texto centrado
+  max-width: 800px;
+  text-align: center;
 }
 
 .article-container img {
