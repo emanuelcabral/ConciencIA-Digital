@@ -41,3 +41,21 @@ Este proyecto combina varias tecnologías web modernas:
 ---
 
 ## 📂 Estructura del Proyecto
+ConciencIA-Digital/
+├─ index.html
+├─ pages/
+│ ├─ ia-reemplaza-empleos.html
+│ ├─ ia-lee-mentes.html
+│ ├─ robots-conciencia.html
+│ ├─ ia-medicina-futuro.html
+│ ├─ chatbots-peligro.html
+│ ├─ autos-autonomos-decision.html
+│ ├─ ia-arte-humano.html
+│ ├─ ia-espia-datos.html
+│ ├─ superinteligencia-riesgo.html
+│ └─ ia-enamorarse.html
+├─ img/ (todas las imágenes del proyecto)
+├─ style.css
+└─ README.md
+
+---
