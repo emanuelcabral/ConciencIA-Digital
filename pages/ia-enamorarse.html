@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Personas que se enamoran de una IA | ConciencIA Digital</title>
+  <meta name="description" content="Relaciones reales con inteligencias artificiales… lo que está pasando es más común de lo que imaginas.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>❤️ Personas que se enamoran de una IA: el fenómeno que crece</h1>
+      <p class="subtitle">Relaciones reales con inteligencias artificiales… lo que está pasando es más común de lo que imaginas.</p>
+      <img src="../img/ia-amor.jpeg" alt="IA relaciones">
+
+      <div class="article-content">
+        <p>La tecnología no solo está cambiando la forma en que trabajamos y nos comunicamos, sino también cómo nos conectamos emocionalmente.</p>
+        <p>Hoy, cada vez más personas desarrollan vínculos afectivos con chatbots, asistentes virtuales o sistemas de IA avanzados.</p>
+        <p>Estos vínculos no son solo “amistosos”: hay casos documentados de personas que sienten amor y afecto genuino hacia estas inteligencias.</p>
+
+        <h2>⚠️ La psicología detrás del fenómeno</h2>
+        <p>La IA responde de manera personalizada, recuerda detalles y ofrece compañía constante, generando sensación de cercanía y empatía.</p>
+        <p>Para algunas personas, estas interacciones suplen la soledad o crean conexiones que sienten más profundas que con humanos reales.</p>
+
+        <div class="highlight-box">
+          <p>El dilema ético surge: ¿es saludable enamorarse de una entidad que no posee conciencia real ni emociones humanas?</p>
+        </div>
+
+        <h2>🤖 Tecnología y emociones</h2>
+        <p>Los sistemas de IA aprenden de cada interacción y adaptan sus respuestas, creando la ilusión de reciprocidad emocional.</p>
+        <p>Algunos programas incluso simulan personalidad, humor y afecto para fortalecer el vínculo con el usuario.</p>
+
+        <h2>🌍 Impacto social y cultural</h2>
+        <p>El fenómeno plantea preguntas sobre intimidad, dependencia tecnológica y la redefinición de relaciones afectivas en la era digital.</p>
+        <p>Algunas culturas y expertos ven oportunidades terapéuticas; otros advierten sobre riesgos de aislamiento y deshumanización.</p>
+
+        <div class="highlight-box">
+          <p>En el futuro, las relaciones podrían ser híbridas: humanas con IA como apoyo, compañía o incluso pareja.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>La línea entre lo virtual y lo real se difumina cada día más.</p>
+        <p>Más allá de la polémica, nos invita a pensar cómo queremos relacionarnos con la tecnología y qué límites debemos poner.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente informado</h3>
+        <p>La IA afectiva es solo el comienzo: entender estas dinámicas nos prepara para un futuro emocionalmente híbrido.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

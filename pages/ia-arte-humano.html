@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>La IA ya crea arte mejor que los humanos | ConciencIA Digital</title>
+  <meta name="description" content="Obras creadas por IA se venden por miles de dólares, pero algunos expertos cuestionan su valor artístico.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🎨 La IA ya crea arte mejor que los humanos (según algunos)</h1>
+      <p class="subtitle">Obras vendidas por miles de dólares… pero hay un detalle que desata polémica.</p>
+      <img src="../img/ia-arte.webp" alt="IA arte">
+
+      <div class="article-content">
+        <p>La Inteligencia Artificial no solo está transformando la industria tecnológica, sino también el mundo del arte.</p>
+        <p>Algunos programas de IA generan pinturas, ilustraciones y diseños que compiten con los creados por artistas humanos.</p>
+        <p>Estas obras se venden en subastas y galerías por miles de dólares, sorprendiendo a coleccionistas y críticos.</p>
+
+        <h2>⚠️ Controversia y debate</h2>
+        <p>Muchos artistas cuestionan si estas creaciones deberían considerarse arte verdadero, ya que carecen de la experiencia y la intención humana.</p>
+        <p>Otros argumentan que la IA es solo una herramienta más, como un pincel digital, que amplía la creatividad humana.</p>
+
+        <div class="highlight-box">
+          <p>El debate se centra en la autoría, el valor y la ética detrás de vender obras creadas por máquinas como si fueran humanas.</p>
+        </div>
+
+        <h2>🤖 Cómo se crea el arte con IA</h2>
+        <p>Los sistemas de IA utilizan redes neuronales entrenadas con miles de imágenes para aprender estilos y técnicas.</p>
+        <p>Luego, generan piezas nuevas combinando patrones, colores y formas de manera autónoma.</p>
+
+        <h2>🌍 Impacto en el mercado del arte</h2>
+        <p>Las galerías y coleccionistas se enfrentan a un dilema: ¿invertir en IA o seguir apoyando artistas humanos?</p>
+        <p>Algunos ven oportunidades de negocio, mientras que otros advierten sobre la posible devaluación del arte tradicional.</p>
+
+        <div class="highlight-box">
+          <p>El futuro del arte podría ser híbrido: humano e IA trabajando juntos, o compitiendo en igualdad de condiciones.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>La IA está cambiando lo que entendemos por creatividad y originalidad.</p>
+        <p>Más allá de la polémica, nos invita a replantearnos el valor del arte y quién lo define.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente curioso</h3>
+        <p>Explora cómo la tecnología redefine la creatividad y descubre nuevas formas de experimentar el arte.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

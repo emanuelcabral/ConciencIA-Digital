@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>El dilema mortal de los autos autónomos | ConciencIA Digital</title>
+  <meta name="description" content="Los autos autónomos deben tomar decisiones en milisegundos. Pero hay un dilema ético que podría cambiar todo.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🚗 El dilema mortal de los autos autónomos</h1>
+      <p class="subtitle">Cuando un accidente es inevitable… alguien tiene que decidir quién vive y quién no.</p>
+      <img src="../img/ia-en-autos.jpg" alt="Autos autónomos IA">
+
+      <div class="article-content">
+        <p>Imaginá esto por un segundo: vas en un auto autónomo. Todo funciona perfecto… hasta que algo sale mal.</p>
+        <p>Un obstáculo aparece de repente. El sistema tiene milisegundos para reaccionar. No hay tiempo para frenar.</p>
+        <p>Y en ese instante, la inteligencia artificial tiene que tomar una decisión.</p>
+
+        <h2>⚠️ Una elección imposible</h2>
+        <p>¿Debe el auto proteger al pasajero a toda costa? ¿O minimizar el daño total, aunque eso signifique poner en riesgo a quien está dentro?</p>
+        <p>Este problema no es hipotético. Se conoce como el dilema del tranvía, y ahora está siendo programado en sistemas reales.</p>
+
+        <div class="highlight-box">
+          <p>Lo inquietante no es que exista el problema… sino que alguien ya está decidiendo cómo debe responder la máquina.</p>
+        </div>
+
+        <h2>🤖 ¿Quién toma esa decisión?</h2>
+        <p>Ingenieros, empresas tecnológicas y hasta gobiernos están definiendo cómo deben actuar estos vehículos.</p>
+        <p>Pero no todos están de acuerdo.</p>
+        <p>En algunos países, se prioriza salvar la mayor cantidad de vidas. En otros, proteger al conductor.</p>
+
+        <h2>🌍 Un problema sin consenso</h2>
+        <p>Esto significa que el comportamiento de un auto autónomo podría cambiar dependiendo del país en el que estés.</p>
+        <p>Sí, leíste bien: la misma situación podría tener decisiones completamente diferentes según la regulación.</p>
+
+        <div class="highlight-box">
+          <p>Y eso abre una pregunta aún más incómoda: ¿te subirías a un auto que podría decidir sacrificarte?</p>
+        </div>
+
+        <h2>🚨 El futuro que se viene</h2>
+        <p>Los autos autónomos prometen reducir accidentes, salvar millones de vidas y cambiar el transporte para siempre.</p>
+        <p>Pero también traen consigo decisiones que antes solo podía tomar un ser humano.</p>
+        <p>Y ahora… esas decisiones están siendo escritas en código.</p>
+        <p>La pregunta ya no es si esta tecnología va a dominar las calles.</p>
+        <p>La verdadera pregunta es: ¿estamos listos para aceptar sus decisiones?</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Esto recién empieza</h3>
+        <p>A medida que la IA avance, estos dilemas serán cada vez más comunes… y más difíciles de ignorar.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

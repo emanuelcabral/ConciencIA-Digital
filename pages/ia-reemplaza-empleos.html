@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>La IA ya está reemplazando empleos | ConciencIA Digital</title>
+  <meta name="description" content="Millones de trabajos podrían desaparecer antes de lo que crees… pero hay un detalle oculto que cambia todo.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>⚠️ La IA ya está reemplazando empleos (y nadie te lo está contando así)</h1>
+      <p class="subtitle">Millones de trabajos podrían desaparecer antes de lo que crees… pero hay un detalle oculto que cambia todo.</p>
+      <img src="../img/ia-empleos.jpg" alt="IA reemplazando trabajos">
+
+      <div class="article-content">
+        <p>La automatización y la inteligencia artificial están transformando el mercado laboral a un ritmo sin precedentes. Lo que antes hacían humanos ahora puede hacerlo una máquina con mayor rapidez y precisión.</p>
+        <p>Desde manufactura hasta atención al cliente, muchos empleos corren el riesgo de ser reemplazados o modificados radicalmente.</p>
+
+        <h2>⚖️ El impacto real</h2>
+        <p>Según varios estudios, millones de trabajos podrían desaparecer en la próxima década. Pero no se trata solo de perder empleo: también se abren nuevas oportunidades en campos tecnológicos y creativos.</p>
+
+        <div class="highlight-box">
+          <p>El desafío está en adaptarse rápido, adquirir nuevas habilidades y comprender qué trabajos están más expuestos a la automatización.</p>
+        </div>
+
+        <h2>🤖 Robots y algoritmos en acción</h2>
+        <p>La IA ya está realizando tareas complejas que antes requerían expertos humanos. Desde redactar informes hasta conducir vehículos, la tecnología avanza sin detenerse.</p>
+
+        <p>El gran dilema es cómo balancear eficiencia y empleo humano. Las decisiones de las empresas podrían cambiar la vida de millones de personas.</p>
+
+        <h2>🌍 Cambios globales</h2>
+        <p>No todos los países están igual de preparados. En algunos, la educación y la reconversión laboral intentan mitigar el impacto. En otros, los cambios ocurren sin preparación previa.</p>
+
+        <div class="highlight-box">
+          <p>La pregunta clave es: ¿estamos listos para un mundo donde la IA toma cada vez más decisiones económicas y laborales?</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>La IA puede reemplazar empleos, pero también crear nuevas oportunidades. La clave está en adaptarse, aprender y anticiparse al cambio.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente al día</h3>
+        <p>Comprender cómo la IA impacta el empleo te permite tomar decisiones informadas y prepararte para el futuro laboral.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

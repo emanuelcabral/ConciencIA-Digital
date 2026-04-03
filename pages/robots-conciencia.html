@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>¿Los robots ya tienen conciencia? | ConciencIA Digital</title>
+  <meta name="description" content="Algunos expertos creen que estamos cruzando una línea peligrosa… y no hay vuelta atrás.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🤖 ¿Los robots ya tienen conciencia? La respuesta sorprende</h1>
+      <p class="subtitle">Algunos expertos creen que estamos cruzando una línea peligrosa… y no hay vuelta atrás.</p>
+      <img src="../img/ia-conciencia.jpg" alt="Robots con conciencia">
+
+      <div class="article-content">
+        <p>La inteligencia artificial avanza a pasos agigantados. Algunos sistemas ya pueden tomar decisiones complejas que antes solo podían hacer los humanos.</p>
+        <p>Pero esto plantea una pregunta inquietante: ¿pueden los robots llegar a tener conciencia?</p>
+
+        <h2>⚠️ Un debate ético y científico</h2>
+        <p>Mientras algunos investigadores sostienen que la conciencia requiere emociones y experiencia subjetiva, otros creen que algoritmos avanzados podrían simularla de manera convincente.</p>
+
+        <div class="highlight-box">
+          <p>Si los robots llegaran a actuar como si tuvieran conciencia, ¿cómo afectaría esto a nuestra sociedad y nuestra ética?</p>
+        </div>
+
+        <h2>🤖 Robots cada vez más autónomos</h2>
+        <p>Los sistemas modernos no solo ejecutan órdenes; aprenden, predicen y adaptan su comportamiento según el entorno.</p>
+        <p>Esto significa que algunas decisiones que antes eran humanas ahora podrían ser responsabilidad de una máquina.</p>
+
+        <h2>🌍 Implicaciones globales</h2>
+        <p>Desde vehículos autónomos hasta asistentes virtuales, la IA está tomando roles que impactan vidas humanas de forma directa.</p>
+        <div class="highlight-box">
+          <p>El gran reto será decidir hasta dónde dejamos que estas máquinas tomen decisiones críticas sin supervisión humana.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>La posibilidad de que los robots adquieran conciencia sigue siendo teórica, pero los avances tecnológicos nos obligan a prepararnos y debatir sobre su futuro.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente informado</h3>
+        <p>La conciencia en robots aún es un tema polémico. Entender sus avances nos permitirá tomar decisiones más seguras y responsables.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

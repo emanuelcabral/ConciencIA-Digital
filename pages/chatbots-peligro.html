@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Los chatbots ya no son lo que parecen | ConciencIA Digital</title>
+  <meta name="description" content="Algunos usuarios aseguran que las IA responden demasiado humanas. ¿Hasta qué punto es seguro?">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>💬 Los chatbots ya no son lo que parecen (y eso preocupa)</h1>
+      <p class="subtitle">Algunos usuarios aseguran que las IA responden demasiado humanas… ¿hasta qué punto es seguro?</p>
+      <img src="../img/chatbot-ia.webp" alt="Chatbots IA">
+
+      <div class="article-content">
+        <p>Los chatbots están en todas partes: sitios web, apps y hasta en mensajes de atención al cliente. Al principio parecían simples asistentes…</p>
+        <p>Pero ahora, algunos responden con tanta naturalidad que da la sensación de hablar con otra persona.</p>
+        <p>Esto puede ser útil, pero también genera preocupaciones sobre privacidad y manipulación.</p>
+
+        <h2>⚠️ ¿Demasiado humanos?</h2>
+        <p>Los sistemas de IA analizan grandes cantidades de datos para imitar conversaciones humanas de manera muy convincente.</p>
+        <p>Pero esa capacidad también podría ser usada para engañar, influir en decisiones o recolectar información sin que lo notes.</p>
+
+        <div class="highlight-box">
+          <p>Lo preocupante es que muchas veces no sabemos si estamos hablando con una persona o con un programa entrenado para simular emociones.</p>
+        </div>
+
+        <h2>🤖 Riesgos y desafíos</h2>
+        <p>Existen riesgos de desinformación, suplantación de identidad y pérdida de control sobre nuestras propias conversaciones.</p>
+        <p>Además, los chatbots avanzados pueden reforzar prejuicios presentes en los datos con los que fueron entrenados.</p>
+
+        <h2>🌍 Regulación y ética</h2>
+        <p>Diferentes gobiernos y empresas están buscando reglas para proteger a los usuarios y limitar el mal uso de estas herramientas.</p>
+        <p>Sin embargo, aún no hay consenso global y la tecnología avanza más rápido que la ley.</p>
+
+        <div class="highlight-box">
+          <p>Antes de confiar ciegamente en un chatbot, es importante saber quién controla la información y cómo se procesa.</p>
+        </div>
+
+        <h2>🚨 ¿Qué nos espera?</h2>
+        <p>Los chatbots seguirán mejorando y serán parte de nuestra vida cotidiana.</p>
+        <p>Pero también plantean dilemas éticos y sociales que debemos abordar ahora, antes de que sea demasiado tarde.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente alerta</h3>
+        <p>A medida que los chatbots se vuelvan más humanos, nuestra capacidad para distinguir la IA de una persona real será crucial.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

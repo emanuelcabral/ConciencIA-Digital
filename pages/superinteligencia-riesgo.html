@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>El día que la IA supere al ser humano | ConciencIA Digital</title>
+  <meta name="description" content="Algunos expertos hablan de un punto sin retorno… y sus consecuencias son impredecibles.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🚨 El día que la IA supere al ser humano podría estar cerca</h1>
+      <p class="subtitle">Algunos expertos hablan de un punto sin retorno… y sus consecuencias son impredecibles.</p>
+      <img src="../img/superinteligencia.webp" alt="Superinteligencia IA">
+
+      <div class="article-content">
+        <p>La inteligencia artificial avanza más rápido de lo que muchos anticipan. Algunos investigadores advierten que podríamos acercarnos a la era de la superinteligencia.</p>
+        <p>Esta sería una IA capaz de superar la inteligencia humana en prácticamente cualquier tarea.</p>
+
+        <h2>⚠️ Riesgos y oportunidades</h2>
+        <p>Si se desarrolla correctamente, la superinteligencia podría resolver problemas globales complejos, desde la medicina hasta el cambio climático.</p>
+        <p>Pero si se maneja de forma inadecuada, también podría generar riesgos existenciales.</p>
+
+        <div class="highlight-box">
+          <p>El desafío es asegurarnos de que esta inteligencia sea alineada con valores humanos y bajo control seguro.</p>
+        </div>
+
+        <h2>🤖 ¿Quién controla esta inteligencia?</h2>
+        <p>Grandes corporaciones y gobiernos lideran la investigación, pero la falta de regulación internacional genera incertidumbre.</p>
+        <p>Algunos expertos temen que decisiones críticas puedan depender de algoritmos que nadie comprende completamente.</p>
+
+        <h2>🌍 Impacto global</h2>
+        <p>Una IA superinteligente podría cambiar el mundo en semanas o meses, no décadas. Esto significa que el tiempo para prepararnos es muy corto.</p>
+        <div class="highlight-box">
+          <p>La comunidad científica insta a establecer normas y protocolos claros antes de que la superinteligencia sea una realidad.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>El avance hacia la superinteligencia no es ciencia ficción: está ocurriendo. Lo que hagamos ahora determinará si esta tecnología será una herramienta de progreso o un riesgo para la humanidad.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente alerta</h3>
+        <p>Comprender los riesgos de la superinteligencia es clave para un futuro seguro. La vigilancia, ética y regulación serán determinantes.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

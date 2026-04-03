@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>La IA que puede leer tu mente | ConciencIA Digital</title>
+  <meta name="description" content="No es ciencia ficción. Científicos lograron interpretar pensamientos… pero lo más inquietante viene después.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🧠 La IA que puede leer tu mente ya existe</h1>
+      <p class="subtitle">No es ciencia ficción. Científicos lograron interpretar pensamientos… pero lo más inquietante viene después.</p>
+      <img src="../img/ia-mente.webp" alt="IA leyendo mente">
+
+      <div class="article-content">
+        <p>Imagina poder saber exactamente lo que alguien está pensando. Lo que antes parecía un sueño de ciencia ficción ahora está más cerca de la realidad gracias a la Inteligencia Artificial.</p>
+        <p>Investigadores han desarrollado algoritmos capaces de interpretar señales cerebrales y traducirlas en palabras o imágenes, utilizando datos de resonancias magnéticas y sensores avanzados.</p>
+
+        <h2>⚠️ ¿Cómo funciona?</h2>
+        <p>Los sistemas de IA analizan patrones neuronales y correlacionan la actividad cerebral con ciertos pensamientos o imágenes.</p>
+        <p>Esto permite “predecir” lo que la persona está pensando con un grado sorprendente de precisión.</p>
+
+        <div class="highlight-box">
+          <p>Lo inquietante no es solo la capacidad tecnológica, sino las implicaciones éticas de leer la mente humana.</p>
+        </div>
+
+        <h2>🤖 Aplicaciones y riesgos</h2>
+        <p>Si bien la tecnología podría ayudar en medicina, comunicación para personas con discapacidades o marketing personalizado, también plantea riesgos enormes en privacidad y manipulación.</p>
+        <p>El potencial de uso indebido es tan real como los beneficios que promete.</p>
+
+        <h2>🌍 Ética y regulación</h2>
+        <p>El avance de esta IA nos fuerza a replantearnos la privacidad mental. ¿Debería existir un límite para lo que la tecnología puede conocer de nosotros?</p>
+
+        <div class="highlight-box">
+          <p>La conciencia sobre los riesgos es fundamental antes de que estas herramientas se generalicen.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>El futuro en el que los pensamientos puedan ser leídos no es tan lejano. Prepararse para sus implicaciones éticas y legales será clave.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente informado</h3>
+        <p>Comprender cómo la IA puede acceder a la mente humana te permite reflexionar y tomar decisiones más informadas sobre tu privacidad.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

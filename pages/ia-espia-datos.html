@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>¿Tu celular te escucha? | ConciencIA Digital</title>
+  <meta name="description" content="Todo lo que haces deja huella… pero lo más inquietante es cómo se usa esa información.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🔍 ¿Tu celular te escucha? La verdad sobre la IA y tus datos</h1>
+      <p class="subtitle">Todo lo que haces deja huella… pero lo más inquietante es cómo se usa esa información.</p>
+      <img src="../img/ia-datos.jpeg" alt="IA datos">
+
+      <div class="article-content">
+        <p>Vivimos en un mundo donde nuestros dispositivos registran cada movimiento, búsqueda y conversación.</p>
+        <p>Desde aplicaciones hasta asistentes virtuales, la Inteligencia Artificial analiza patrones para ofrecer servicios personalizados… o vender publicidad dirigida.</p>
+        <p>Lo que muchos no saben es que esta información puede ser utilizada de maneras que no imaginamos.</p>
+
+        <h2>⚠️ La recopilación de datos</h2>
+        <p>Las aplicaciones solicitan permisos para acceder a micrófono, ubicación y contactos.</p>
+        <p>Incluso si no hablas directamente con tu asistente virtual, las IA pueden inferir datos a partir de tu comportamiento digital.</p>
+
+        <div class="highlight-box">
+          <p>Tu celular puede “escuchar” más de lo que piensas, incluso sin que interactúes activamente con él.</p>
+        </div>
+
+        <h2>🤖 Cómo la IA procesa tu información</h2>
+        <p>Algoritmos avanzados analizan patrones de uso, preferencias y hábitos.</p>
+        <p>Esto permite predecir comportamientos, ofrecer recomendaciones y segmentar publicidad de manera muy precisa.</p>
+
+        <h2>🌍 Riesgos y consecuencias</h2>
+        <p>El problema surge cuando estos datos caen en manos equivocadas o se usan sin consentimiento explícito.</p>
+        <p>La privacidad se convierte en un bien cada vez más escaso, y la línea entre seguridad y vigilancia se difumina.</p>
+
+        <div class="highlight-box">
+          <p>La pregunta crucial: ¿estamos dispuestos a sacrificar nuestra privacidad por comodidad y tecnología?</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>Comprender cómo la IA utiliza nuestros datos es el primer paso para proteger nuestra información personal.</p>
+        <p>La educación digital y la regulación ética serán esenciales en los próximos años.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente seguro</h3>
+        <p>Conocer los riesgos de la IA sobre tus datos te permite tomar decisiones más informadas y proteger tu privacidad.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>

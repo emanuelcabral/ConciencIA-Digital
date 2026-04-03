@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>La IA está salvando vidas | ConciencIA Digital</title>
+  <meta name="description" content="Diagnósticos en segundos y precisión extrema. Pero existe un riesgo silencioso que pocos mencionan.">
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+  <!-- NAVBAR (IGUAL AL INDEX) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Concienc<span>IA</span> Digital</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#articulos">Artículos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn">☀️</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ARTÍCULO CENTRADO -->
+  <main class="article-page">
+    <section class="article-container">
+      <h1>🏥 La IA está salvando vidas… pero hay algo que no quieren que sepas</h1>
+      <p class="subtitle">Diagnósticos en segundos y precisión extrema. Pero existe un riesgo silencioso que pocos mencionan.</p>
+      <img src="../img/ia-medicina.jpeg" alt="IA en Medicina">
+
+      <div class="article-content">
+        <p>La inteligencia artificial está revolucionando la medicina. Desde diagnósticos más rápidos hasta tratamientos personalizados, los avances parecen ilimitados.</p>
+        <p>Imágenes médicas, análisis de laboratorio y patrones de síntomas son procesados en segundos, permitiendo decisiones que antes tardaban días o semanas.</p>
+
+        <h2>⚠️ El poder de la predicción</h2>
+        <p>Los algoritmos pueden detectar enfermedades antes de que los síntomas sean evidentes, lo que salva vidas y mejora la calidad del tratamiento.</p>
+
+        <div class="highlight-box">
+          <p>Lo impresionante es cómo la IA puede anticipar problemas, pero esto también genera dependencia tecnológica y vulnerabilidades ocultas.</p>
+        </div>
+
+        <h2>🤖 Beneficios y riesgos</h2>
+        <p>El beneficio es claro: diagnósticos más rápidos y precisos. El riesgo es que errores en los algoritmos pueden pasar desapercibidos y afectar decisiones médicas críticas.</p>
+        <p>Además, la privacidad de los datos médicos es un tema delicado. El acceso indebido a esta información podría tener consecuencias graves.</p>
+
+        <h2>🌍 Ética y regulación</h2>
+        <p>El uso de IA en salud requiere supervisión y normas claras. ¿Quién es responsable si una decisión automática resulta en daño al paciente?</p>
+
+        <div class="highlight-box">
+          <p>La tecnología avanza más rápido que las regulaciones. La ética y la protección de datos son esenciales para que la IA beneficie sin riesgos ocultos.</p>
+        </div>
+
+        <h2>🚨 Reflexión final</h2>
+        <p>La IA en medicina promete salvar millones de vidas, pero también nos recuerda que ningún sistema es infalible y que la supervisión humana sigue siendo clave.</p>
+      </div>
+
+      <!-- CTA -->
+      <section class="article-cta">
+        <h3>📌 Mantente informado</h3>
+        <p>Comprender cómo la IA interviene en la medicina te permite valorar los avances y anticipar los posibles riesgos éticos y legales.</p>
+      </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ConciencIA Digital | Hecho con ❤️ y <span>IA</span></p>
+  </footer>
+
+  <!-- SCRIPT DARK/LIGHT -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      body.classList.toggle('light-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '☀️' : '🌙';
+    });
+  </script>
+
+  <!-- BOTÓN SUBIR -->
+  <a href="#top" class="subir" aria-label="Subir al inicio">
+    <span>☝️</span>
+  </a>
+
+</body>
+</html>
